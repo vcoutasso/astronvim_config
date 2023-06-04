@@ -9,5 +9,6 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  { "catppuccin/nvim", name = "catppuccin" }
+  { "catppuccin/nvim",    name = "catppuccin" },
+  { "github/copilot.vim", lazy = false }
 }
